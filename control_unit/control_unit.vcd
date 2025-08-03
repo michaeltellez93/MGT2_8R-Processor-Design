@@ -1,0 +1,151 @@
+$date
+	Sun Jul 27 21:20:09 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module control_unit_tb $end
+$var wire 1 ! n_reg_w $end
+$var wire 1 " n_mem_rw $end
+$var wire 1 # n_mem_oe $end
+$var wire 1 $ n_mem_cs $end
+$var reg 4 % opCode [3:0] $end
+$var integer 32 & i [31:0] $end
+$scope module uut $end
+$var wire 4 ' opCode [3:0] $end
+$var parameter 4 ( OP_ADD $end
+$var parameter 4 ) OP_AND $end
+$var parameter 4 * OP_BEQ $end
+$var parameter 4 + OP_BNE $end
+$var parameter 4 , OP_JAL $end
+$var parameter 4 - OP_JMP $end
+$var parameter 4 . OP_LD $end
+$var parameter 4 / OP_LDI $end
+$var parameter 4 0 OP_NOT $end
+$var parameter 4 1 OP_OR $end
+$var parameter 4 2 OP_SLL $end
+$var parameter 4 3 OP_SRA $end
+$var parameter 4 4 OP_SRL $end
+$var parameter 4 5 OP_ST $end
+$var parameter 4 6 OP_SUB $end
+$var parameter 4 7 OP_XOR $end
+$var reg 1 $ n_mem_cs $end
+$var reg 1 # n_mem_oe $end
+$var reg 1 " n_mem_rw $end
+$var reg 1 ! n_reg_w $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 7
+b110 6
+b11 5
+b1111 4
+b1110 3
+b1101 2
+b101 1
+b1100 0
+b1 /
+b0 .
+b1001 -
+b1000 ,
+b1011 +
+b1010 *
+b111 )
+b10 (
+$end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+0$
+0#
+0"
+0!
+$end
+#10
+1#
+1$
+1"
+0!
+b1 %
+b1 '
+b1 &
+#20
+0$
+1!
+b11 %
+b11 '
+b10 &
+#30
+0!
+1$
+b10 %
+b10 '
+b11 &
+#40
+0!
+b110 %
+b110 '
+b100 &
+#50
+0!
+b111 %
+b111 '
+b101 &
+#60
+0!
+b101 %
+b101 '
+b110 &
+#70
+0!
+b100 %
+b100 '
+b111 &
+#80
+0!
+b1100 %
+b1100 '
+b1000 &
+#90
+0!
+b1101 %
+b1101 '
+b1001 &
+#100
+0!
+b1111 %
+b1111 '
+b1010 &
+#110
+0!
+b1110 %
+b1110 '
+b1011 &
+#120
+1!
+b1010 %
+b1010 '
+b1100 &
+#130
+b1011 %
+b1011 '
+b1101 &
+#140
+b1001 %
+b1001 '
+b1110 &
+#150
+0!
+b1000 %
+b1000 '
+b1111 &
+#160
+b10000 &
+#170

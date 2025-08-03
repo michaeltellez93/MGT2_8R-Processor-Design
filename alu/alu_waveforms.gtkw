@@ -1,0 +1,46 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Mon Jul 28 02:03:39 2025
+[*]
+[dumpfile] "/Users/michaeltellez/Projects/computer_engineering/alu/wave.vcd"
+[dumpfile_mtime] "Mon Jul 28 01:21:21 2025"
+[dumpfile_size] 1718
+[savefile] "/Users/michaeltellez/Projects/computer_engineering/alu/alu_waveforms.gtkw"
+[timestart] 0
+[size] 1440 900
+[pos] -1 -26
+*-3.538135 23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] ALU_tb.
+[treeopen] ALU_tb.uut.
+[sst_width] 255
+[signals_width] 144
+[sst_expanded] 1
+[sst_vpaned_height] 264
+@420
+ALU_tb.uut.a[7:0]
+@200
+-
+@420
+ALU_tb.uut.b[7:0]
+@200
+-
+@421
+ALU_tb.uut.result[7:0]
+@200
+-
+@28
+ALU_tb.uut.carry
+@200
+-
+@28
+ALU_tb.uut.overflow
+@200
+-
+@28
+ALU_tb.uut.zero
+@200
+-
+@22
+ALU_tb.uut.opCode[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
